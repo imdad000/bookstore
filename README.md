@@ -6,3 +6,5 @@
 
 4.For other products you can But it option!.
 
+5.In my database I am storing ID and quantity where Id is unique Id from google book APi of every book
+
