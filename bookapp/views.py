@@ -1,8 +1,15 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect, get_object_or_404
 import requests
 import json
 import random
 from .models import Book
+from django.forms import ModelForm
+class BookForm(ModelForm):
+    class Meta:
+        model = Book
+        fields = ['book_id', 'book_quantity']
+
+
 def home_page(request):
 	# api=https://www.googleapis.com/books/v1/volumes?q=python
 	query = str(request.GET.get('query', ''))
@@ -50,23 +57,21 @@ def home_page(request):
 		return render(request,'book.html',context)
 
 
-def details(request,id):
-	print(id)
-	baseurl='https://www.googleapis.com/books/v1/volumes/'+str(id)
-	print(baseurl)
-	data=requests.get(baseurl)
-	data=data.json()
-	print(data)
-	for r in data.values():
-		print(r)
-	frontend={
-	"description":data.volumeInfo.description,
-	"title":data.volumeInfo.title,
-	"author":data.volumeInfo.author,
-	"rating":data.averageRating,
-	"imagesrc":data.imageLinks.large,
-	"publisher":data.publisher
-	}
+def update_book(request,pk, template_name='edit.html'):
+	print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",pk)
+	book= get_object_or_404(Book, pk=pk)
+	form = BookForm(request.POST or None, instance=book)
+	if form.is_valid():
+		form.save()
+		return redirect('bookapp:home_page')
+	return render(request, template_name, {'form':form})
 
-	return render(request, "details.html", frontend)
+def delete_book(request,pk,template_name='delete.html'):
+	book= get_object_or_404(Book, pk=pk)
+	if request.method=='POST':
+		book.delete()
+		return redirect('bookapp:home_page')
+	return render(request, template_name, {'object':book})
+
+
 

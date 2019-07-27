@@ -14,18 +14,27 @@
                 {% if has_result %}
 
                     {% for book in search_result.items %}
+                    
                         <div class="movies__item">
                             <p class="movies__item-rating hide">{{ book.volumeInfo.title }}</p>
                             {% for r in mydata %}
                                 {% ifequal  r.book_id book.id %}
                                 {% if r.book_quantity %}
-                                 <a href="#" id="modal-trigger" class="movies__item-expander hide">Purchased It!.</a>
+                                 <p id="modal-trigger" class="movies__item-expander hide">Purchased It!.</p>
+                                 <p id="modal-trigger" class="quantity movies__item-expander hide">Update It!</p>
+                                  <a href="{% url 'bookapp:update_book' r.id %}">Update Inventory</a>
+                                 <a href="{% url 'bookapp:delete_book' r.id %}">delete</a> 
+                                  
                                 {% else %}
                                  <a href="#" class="movies__item-expander hide">Out of Stock</a>
+                                  <a href="{% url 'bookapp:update_book' r.id %}">Update Inventory</a>
+                                <a href="{% url 'bookapp:delete_book' r.id %}">delete</a> 
                                  {% endif %}
                             {% endifequal  %}
                             {% endfor%}
                             <img class="movies__item-image" src='{{ book.volumeInfo.imageLinks.thumbnail }}' onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+Poster'"/>
+                              
+                              
                         </div>
                     {% endfor %}
                 {% else %}

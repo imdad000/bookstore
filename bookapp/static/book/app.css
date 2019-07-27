@@ -238,6 +238,16 @@ body::before {
     font-family: 'Open sans', sans-serif;
 }
 
+.quantity{
+    margin-left: 60px;
+    margin-bottom: 400px;
+}
+.quantity:hover{
+    color: red;
+    margin-left: 60px;
+    margin-bottom: 80px;   
+}
+
 @media only screen and (max-width: 1224px) {
     html {
         font-size: 16px;
