@@ -19,9 +19,9 @@
                             {% for r in mydata %}
                                 {% ifequal  r.book_id book.id %}
                                 {% if r.book_quantity %}
-                                 <a href="{% url 'details' %}{{ book.id }}" id="modal-trigger" class="movies__item-expander hide">Purchased It!.</a>
+                                 <a href="#" id="modal-trigger" class="movies__item-expander hide">Purchased It!.</a>
                                 {% else %}
-                                 <a href="{% url 'details' %}{{ book.id }}" id="modal-trigger" class="movies__item-expander hide">Out of Stock</a>
+                                 <a href="#" class="movies__item-expander hide">Out of Stock</a>
                                  {% endif %}
                             {% endifequal  %}
                             {% endfor%}
