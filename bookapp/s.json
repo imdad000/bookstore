@@ -1,0 +1,888 @@
+{
+    'kind': 'books#volumes',
+    'totalItems': 2089,
+    'items': [
+    {
+        'kind': 'books#volume',
+        'id': 'Oj-e_CoI2tQC',
+        'etag': 'tB6chjgjYP4',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/Oj-e_CoI2tQC',
+        'volumeInfo':
+        {
+            'title': 'Programming in Python 3',
+            'subtitle': 'A Complete Introduction to the Python Language',
+            'authors': ['Mark Summerfield'],
+            'publisher': 'Pearson Education',
+            'publishedDate': '2008-12-16',
+            'description': 'Python 3 is the best version of the language yet: It is more powerful, convenient, consistent, and expressive than ever before. Now, leading Python programmer Mark Summerfield demonstrates how to write code that takes full advantage of Python 3’s features and idioms. The first book written from a completely “Python 3” viewpoint, Programming in Python 3 brings together all the knowledge you need to write any program, use any standard or third-party Python 3 library, and create new library modules of your own. Summerfield draws on his many years of Python experience to share deep insights into Python 3 development you won’t find anywhere else. He begins by illuminating Python’s “beautiful heart”: the eight key elements of Python you need to write robust, high-performance programs. Building on these core elements, he introduces new topics designed to strengthen your practical expertise—one concept and hands-on example at a time. This book’s coverage includes Developing in Python using procedural, object-oriented, and functional programming paradigms Creating custom packages and modules Writing and reading binary, text, and XML files, including optional compression, random access, and text and XML parsing Leveraging advanced data types, collections, control structures, and functions Spreading program workloads across multiple processes and threads Programming SQL databases and key-value DBM files Utilizing Python’s regular expression mini-language and module Building usable, efficient, GUI-based applications Advanced programming techniques, including generators, function and class decorators, context managers, descriptors, abstract base classes, metaclasses, and more Programming in Python 3 serves as both tutorial and language reference, and it is accompanied by extensive downloadable example code—all of it tested with the final version of Python 3 on Windows, Linux, and Mac OS X.',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_10',
+                'identifier': '0321606590'
+            },
+            {
+                'type': 'ISBN_13',
+                'identifier': '9780321606594'
+            }],
+            'readingModes':
+            {
+                'text': True,
+                'image': True
+            },
+            'pageCount': 552,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'averageRating': 5.0,
+            'ratingsCount': 1,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': True,
+            'contentVersion': '1.5.3.0.preview.3',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=Oj-e_CoI2tQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=Oj-e_CoI2tQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=Oj-e_CoI2tQC&printsec=frontcover&dq=python&hl=&cd=1&source=gbs_api',
+            'infoLink': 'https://play.google.com/store/books/details?id=Oj-e_CoI2tQC&source=gbs_api',
+            'canonicalVolumeLink': 'https://play.google.com/store/books/details?id=Oj-e_CoI2tQC'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'FOR_SALE',
+            'isEbook': True,
+            'listPrice':
+            {
+                'amount': 1479.82,
+                'currencyCode': 'INR'
+            },
+            'retailPrice':
+            {
+                'amount': 739.91,
+                'currencyCode': 'INR'
+            },
+            'buyLink': 'https://play.google.com/store/books/details?id=Oj-e_CoI2tQC&rdid=book-Oj-e_CoI2tQC&rdot=1&source=gbs_api',
+            'offers': [
+            {
+                'finskyOfferType': 1,
+                'listPrice':
+                {
+                    'amountInMicros': 1479820000.0,
+                    'currencyCode': 'INR'
+                },
+                'retailPrice':
+                {
+                    'amountInMicros': 739910000.0,
+                    'currencyCode': 'INR'
+                }
+            }]
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED_FOR_ACCESSIBILITY',
+            'epub':
+            {
+                'isAvailable': False
+            },
+            'pdf':
+            {
+                'isAvailable': False
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=Oj-e_CoI2tQC&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': 'The first book written from a completely “Python 3” viewpoint, Programming in Python 3 brings together all the knowledge you need to write any program, use any standard or third-party Python 3 library, and create new library modules of ...'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': '4pgQfXQvekcC',
+        'etag': 'hxyb8jtseCw',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/4pgQfXQvekcC',
+        'volumeInfo':
+        {
+            'title': 'Learning Python',
+            'subtitle': 'Powerful Object-Oriented Programming',
+            'authors': ['Mark Lutz'],
+            'publisher': '"O\'Reilly Media, Inc."',
+            'publishedDate': '2013-06-12',
+            'description': 'Get a comprehensive, in-depth introduction to the core Python language with this hands-on book. Based on author Mark Lutz’s popular training course, this updated fifth edition will help you quickly write efficient, high-quality code with Python. It’s an ideal way to begin, whether you’re new to programming or a professional developer versed in other languages. Complete with quizzes, exercises, and helpful illustrations, this easy-to-follow, self-paced tutorial gets you started with both Python 2.7 and 3.3— the latest releases in the 3.X and 2.X lines—plus all other releases in common use today. You’ll also learn some advanced language features that recently have become more common in Python code. Explore Python’s major built-in object types such as numbers, lists, and dictionaries Create and process objects with Python statements, and learn Python’s general syntax model Use functions to avoid code redundancy and package code for reuse Organize statements, functions, and other tools into larger components with modules Dive into classes: Python’s object-oriented programming tool for structuring code Write large programs with Python’s exception-handling model and development tools Learn advanced Python tools, including decorators, descriptors, metaclasses, and Unicode processing',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_13',
+                'identifier': '9781449355692'
+            },
+            {
+                'type': 'ISBN_10',
+                'identifier': '1449355692'
+            }],
+            'readingModes':
+            {
+                'text': True,
+                'image': True
+            },
+            'pageCount': 1600,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'averageRating': 3.0,
+            'ratingsCount': 4,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': True,
+            'contentVersion': '1.30.33.0.preview.3',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=4pgQfXQvekcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=4pgQfXQvekcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=4pgQfXQvekcC&printsec=frontcover&dq=python&hl=&cd=2&source=gbs_api',
+            'infoLink': 'https://play.google.com/store/books/details?id=4pgQfXQvekcC&source=gbs_api',
+            'canonicalVolumeLink': 'https://play.google.com/store/books/details?id=4pgQfXQvekcC'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'FOR_SALE',
+            'isEbook': True,
+            'listPrice':
+            {
+                'amount': 3540.0,
+                'currencyCode': 'INR'
+            },
+            'retailPrice':
+            {
+                'amount': 3540.0,
+                'currencyCode': 'INR'
+            },
+            'buyLink': 'https://play.google.com/store/books/details?id=4pgQfXQvekcC&rdid=book-4pgQfXQvekcC&rdot=1&source=gbs_api',
+            'offers': [
+            {
+                'finskyOfferType': 1,
+                'listPrice':
+                {
+                    'amountInMicros': 3540000000.0,
+                    'currencyCode': 'INR'
+                },
+                'retailPrice':
+                {
+                    'amountInMicros': 3540000000.0,
+                    'currencyCode': 'INR'
+                }
+            }]
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': True
+            },
+            'pdf':
+            {
+                'isAvailable': True
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=4pgQfXQvekcC&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': 'Get a comprehensive, in-depth introduction to the core Python language with this hands-on book.'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': 'h56ansk4SyQC',
+        'etag': 'dN2yvIArC5o',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/h56ansk4SyQC',
+        'volumeInfo':
+        {
+            'title': 'Python',
+            'subtitle': 'A Study of Delphic Myth and Its Origins',
+            'authors': ['Joseph Eddy Fontenrose'],
+            'publisher': 'Biblo & Tannen Publishers',
+            'publishedDate': '1959',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_10',
+                'identifier': '081960285X'
+            },
+            {
+                'type': 'ISBN_13',
+                'identifier': '9780819602855'
+            }],
+            'readingModes':
+            {
+                'text': False,
+                'image': True
+            },
+            'pageCount': 616,
+            'printType': 'BOOK',
+            'categories': ['Social Science'],
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': False,
+            'contentVersion': '1.1.0.0.preview.1',
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=h56ansk4SyQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=h56ansk4SyQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=h56ansk4SyQC&printsec=frontcover&dq=python&hl=&cd=3&source=gbs_api',
+            'infoLink': 'http://books.google.co.in/books?id=h56ansk4SyQC&dq=python&hl=&source=gbs_api',
+            'canonicalVolumeLink': 'https://books.google.com/books/about/Python.html?hl=&id=h56ansk4SyQC'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'NOT_FOR_SALE',
+            'isEbook': False
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': False
+            },
+            'pdf':
+            {
+                'isAvailable': False
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=h56ansk4SyQC&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': 'UEu0CAAAQBAJ',
+        'etag': 'S1VzXBaqths',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/UEu0CAAAQBAJ',
+        'volumeInfo':
+        {
+            'title': 'Automate the Boring Stuff with Python',
+            'subtitle': 'Practical Programming for Total Beginners',
+            'authors': ['Al Sweigart'],
+            'publisher': 'No Starch Press',
+            'publishedDate': '2015-04-14',
+            'description': 'If you’ve ever spent hours renaming files or updating hundreds of spreadsheet cells, you know how tedious tasks like these can be. But what if you could have your computer do them for you? In Automate the Boring Stuff with Python, you’ll learn how to use Python to write programs that do in minutes what would take you hours to do by hand—no prior programming experience required. Once you’ve mastered the basics of programming, you’ll create Python programs that effortlessly perform useful and impressive feats of automation to: Search for text in a file or across multiple filesCreate, update, move, and rename files and foldersSearch the Web and download online contentUpdate and format data in Excel spreadsheets of any sizeSplit, merge, watermark, and encrypt PDFsSend reminder emails and text notificationsFill out online forms Step-by-step instructions walk you through each program, and practice projects at the end of each chapter challenge you to improve those programs and use your newfound skills to automate similar tasks. Don’t spend your time doing work a well-trained monkey could do. Even if you’ve never written a line of code, you can make your computer do the grunt work. Learn how in Automate the Boring Stuff with Python. Note: The programs in this book are written to run on Python 3.',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_13',
+                'identifier': '9781593275990'
+            },
+            {
+                'type': 'ISBN_10',
+                'identifier': '1593275994'
+            }],
+            'readingModes':
+            {
+                'text': True,
+                'image': True
+            },
+            'pageCount': 504,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'averageRating': 4.5,
+            'ratingsCount': 4,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': True,
+            'contentVersion': '1.1.1.0.preview.3',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=UEu0CAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=UEu0CAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=UEu0CAAAQBAJ&printsec=frontcover&dq=python&hl=&cd=4&source=gbs_api',
+            'infoLink': 'http://books.google.co.in/books?id=UEu0CAAAQBAJ&dq=python&hl=&source=gbs_api',
+            'canonicalVolumeLink': 'https://books.google.com/books/about/Automate_the_Boring_Stuff_with_Python.html?hl=&id=UEu0CAAAQBAJ'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'NOT_FOR_SALE',
+            'isEbook': False
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': True
+            },
+            'pdf':
+            {
+                'isAvailable': True
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=UEu0CAAAQBAJ&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': 'Even if you’ve never written a line of code, you can make your computer do the grunt work. Learn how in Automate the Boring Stuff with Python. Note: The programs in this book are written to run on Python 3.'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': 'zjqzDAEACAAJ',
+        'etag': 'Hn1fvzSCRy0',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/zjqzDAEACAAJ',
+        'volumeInfo':
+        {
+            'title': 'Python for Everybody',
+            'subtitle': 'Exploring Data in Python 3',
+            'authors': ['Charles R. Severance'],
+            'publishedDate': '2016-04-09',
+            'description': 'Python for Everybody is designed to introduce students to programming and software development through the lens of exploring data. You can think of the Python programming language as your tool to solve data problems that are beyond the capability of a spreadsheet.Python is an easy to use and easy to learn programming language that is freely available on Macintosh, Windows, or Linux computers. So once you learn Python you can use it for the rest of your career without needing to purchase any software.This book uses the Python 3 language. The earlier Python 2 version of this book is titled "Python for Informatics: Exploring Information".There are free downloadable electronic copies of this book in various formats and supporting materials for the book at www.pythonlearn.com. The course materials are available to you under a Creative Commons License so you can adapt them to teach your own Python course.',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_10',
+                'identifier': '1530051126'
+            },
+            {
+                'type': 'ISBN_13',
+                'identifier': '9781530051120'
+            }],
+            'readingModes':
+            {
+                'text': False,
+                'image': False
+            },
+            'pageCount': 242,
+            'printType': 'BOOK',
+            'averageRating': 5.0,
+            'ratingsCount': 1,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': False,
+            'contentVersion': 'preview-1.0.0',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=zjqzDAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=zjqzDAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=zjqzDAEACAAJ&dq=python&hl=&cd=5&source=gbs_api',
+            'infoLink': 'http://books.google.co.in/books?id=zjqzDAEACAAJ&dq=python&hl=&source=gbs_api',
+            'canonicalVolumeLink': 'https://books.google.com/books/about/Python_for_Everybody.html?hl=&id=zjqzDAEACAAJ'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'NOT_FOR_SALE',
+            'isEbook': False
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'NO_PAGES',
+            'embeddable': False,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': False
+            },
+            'pdf':
+            {
+                'isAvailable': False
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=zjqzDAEACAAJ&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'NONE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': '&quot;Designed to teach people to program even if they have no prior experience.'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': '2XliiK7FKoEC',
+        'etag': 'gZqoDKxcnP8',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/2XliiK7FKoEC',
+        'volumeInfo':
+        {
+            'title': 'Violent Python',
+            'subtitle': 'A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers',
+            'authors': ["TJ O'Connor"],
+            'publisher': 'Newnes',
+            'publishedDate': '2012-12-28',
+            'description': 'Violent Python shows you how to move from a theoretical understanding of offensive computing concepts to a practical implementation. Instead of relying on another attacker’s tools, this book will teach you to forge your own weapons using the Python programming language. This book demonstrates how to write Python scripts to automate large-scale network attacks, extract metadata, and investigate forensic artifacts. It also shows how to write code to intercept and analyze network traffic using Python, craft and spoof wireless frames to attack wireless and Bluetooth devices, and how to data-mine popular social media websites and evade modern anti-virus. Demonstrates how to write Python scripts to automate large-scale network attacks, extract metadata, and investigate forensic artifacts Write code to intercept and analyze network traffic using Python. Craft and spoof wireless frames to attack wireless and Bluetooth devices Data-mine popular social media websites and evade modern anti-virus',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_13',
+                'identifier': '9781597499644'
+            },
+            {
+                'type': 'ISBN_10',
+                'identifier': '1597499641'
+            }],
+            'readingModes':
+            {
+                'text': True,
+                'image': True
+            },
+            'pageCount': 288,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'averageRating': 3.0,
+            'ratingsCount': 1,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': True,
+            'contentVersion': '0.5.5.0.preview.3',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=2XliiK7FKoEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=2XliiK7FKoEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=2XliiK7FKoEC&printsec=frontcover&dq=python&hl=&cd=6&source=gbs_api',
+            'infoLink': 'https://play.google.com/store/books/details?id=2XliiK7FKoEC&source=gbs_api',
+            'canonicalVolumeLink': 'https://play.google.com/store/books/details?id=2XliiK7FKoEC'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'FOR_SALE',
+            'isEbook': True,
+            'listPrice':
+            {
+                'amount': 3591.92,
+                'currencyCode': 'INR'
+            },
+            'retailPrice':
+            {
+                'amount': 3591.92,
+                'currencyCode': 'INR'
+            },
+            'buyLink': 'https://play.google.com/store/books/details?id=2XliiK7FKoEC&rdid=book-2XliiK7FKoEC&rdot=1&source=gbs_api',
+            'offers': [
+            {
+                'finskyOfferType': 1,
+                'listPrice':
+                {
+                    'amountInMicros': 3591920000.0,
+                    'currencyCode': 'INR'
+                },
+                'retailPrice':
+                {
+                    'amountInMicros': 3591920000.0,
+                    'currencyCode': 'INR'
+                }
+            }]
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': True,
+                'acsTokenLink': 'http://books.google.co.in/books/download/Violent_Python-sample-epub.acsm?id=2XliiK7FKoEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api'
+            },
+            'pdf':
+            {
+                'isAvailable': True,
+                'acsTokenLink': 'http://books.google.co.in/books/download/Violent_Python-sample-pdf.acsm?id=2XliiK7FKoEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api'
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=2XliiK7FKoEC&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': 'This book demonstrates how to write Python scripts to automate large-scale network attacks, extract metadata, and investigate forensic artifacts.'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': 'c8pV-TzyfBUC',
+        'etag': '9amfXSsP6rI',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/c8pV-TzyfBUC',
+        'volumeInfo':
+        {
+            'title': 'Programming Python',
+            'authors': ['Mark Lutz'],
+            'publisher': '"O\'Reilly Media, Inc."',
+            'publishedDate': '2001',
+            'description': "A guide to Python, the object-oriented scripting language, discusses the use of Python in Internet and web programming; address Python's C intergration tools; and features many examples that expand as new topics are introduced. Original. (Intermediate/Advanced)",
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_10',
+                'identifier': '0596000855'
+            },
+            {
+                'type': 'ISBN_13',
+                'identifier': '9780596000851'
+            }],
+            'readingModes':
+            {
+                'text': False,
+                'image': True
+            },
+            'pageCount': 1255,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'averageRating': 4.0,
+            'ratingsCount': 5,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': False,
+            'contentVersion': '1.1.1.0.preview.1',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=c8pV-TzyfBUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=c8pV-TzyfBUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=c8pV-TzyfBUC&printsec=frontcover&dq=python&hl=&cd=7&source=gbs_api',
+            'infoLink': 'http://books.google.co.in/books?id=c8pV-TzyfBUC&dq=python&hl=&source=gbs_api',
+            'canonicalVolumeLink': 'https://books.google.com/books/about/Programming_Python.html?hl=&id=c8pV-TzyfBUC'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'NOT_FOR_SALE',
+            'isEbook': False
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': False
+            },
+            'pdf':
+            {
+                'isAvailable': True
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=c8pV-TzyfBUC&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': 'A guide to Python, the object-oriented scripting language, discusses the use of Python in Internet and web programming; address Python&#39;s C intergration tools; and features many examples that expand as new topics are introduced.'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': 'carqdIdfVlYC',
+        'etag': '0M+g41f3HJY',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/carqdIdfVlYC',
+        'volumeInfo':
+        {
+            'title': 'Python',
+            'authors': ['Chris Fehily'],
+            'publisher': 'Peachpit Press',
+            'publishedDate': '2002',
+            'description': 'The quick and easy way to master Python for Internet and Intranet programming with this visual, step-by-step guide to the popular Python programming language. This guide contains cross-platform coverage for the Mac, Windows, and Unix environments as it teaches techniques for cookies, session management, and integration with XML.',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_10',
+                'identifier': '0201748843'
+            },
+            {
+                'type': 'ISBN_13',
+                'identifier': '9780201748840'
+            }],
+            'readingModes':
+            {
+                'text': False,
+                'image': True
+            },
+            'pageCount': 410,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'averageRating': 3.0,
+            'ratingsCount': 2,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': False,
+            'contentVersion': '1.1.1.0.preview.1',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=carqdIdfVlYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=carqdIdfVlYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=carqdIdfVlYC&printsec=frontcover&dq=python&hl=&cd=8&source=gbs_api',
+            'infoLink': 'http://books.google.co.in/books?id=carqdIdfVlYC&dq=python&hl=&source=gbs_api',
+            'canonicalVolumeLink': 'https://books.google.com/books/about/Python.html?hl=&id=carqdIdfVlYC'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'NOT_FOR_SALE',
+            'isEbook': False
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED_FOR_ACCESSIBILITY',
+            'epub':
+            {
+                'isAvailable': False
+            },
+            'pdf':
+            {
+                'isAvailable': False
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=carqdIdfVlYC&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': 'This guide contains cross-platform coverage for the Mac, Windows, and Unix environments as it teaches techniques for cookies, session management, and integration with XML.'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': 'BcN0swEACAAJ',
+        'etag': 's47hfr+pqWE',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/BcN0swEACAAJ',
+        'volumeInfo':
+        {
+            'title': 'Python Tricks',
+            'subtitle': 'The Book',
+            'authors': ['Dan Bader'],
+            'publisher': 'Dan Bader',
+            'publishedDate': '2017',
+            'description': '"I don\'t even feel like I\'ve scratched the surface of what I can do with Python" With Python Tricks: The Book you\'ll discover Python\'s best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative. You\'ll get one step closer to mastering Python, so you can write beautiful and idiomatic code that comes to you naturally. Learning the ins and outs of Python is difficult-and with this book you\'ll be able to focus on the practical skills that really matter. Discover the "hidden gold" in Python\'s standard library and start writing clean and Pythonic code today. Who Should Read This Book: If you\'re wondering which lesser known parts in Python you should know about, you\'ll get a roadmap with this book. Discover cool (yet practical!) Python tricks and blow your coworkers\' minds in your next code review. If you\'ve got experience with legacy versions of Python, the book will get you up to speed with modern patterns and features introduced in Python 3 and backported to Python 2. If you\'ve worked with other programming languages and you want to get up to speed with Python, you\'ll pick up the idioms and practical tips you need to become a confident and effective Pythonista. If you want to make Python your own and learn how to write clean and Pythonic code, you\'ll discover best practices and little-known tricks to round out your knowledge. What Python Developers Say About The Book: "I kept thinking that I wished I had access to a book like this when I started learning Python many years ago." - Mariatta Wijaya, Python Core Developer "This book makes you write better Python code!" - Bob Belderbos, Software Developer at Oracle "Far from being just a shallow collection of snippets, this book will leave the attentive reader with a deeper understanding of the inner workings of Python as well as an appreciation for its beauty." - Ben Felder, Pythonista "It\'s like having a seasoned tutor explaining, well, tricks!" - Daniel Meyer, Sr. Desktop Administrator at Tesla Inc.',
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_10',
+                'identifier': '1775093301'
+            },
+            {
+                'type': 'ISBN_13',
+                'identifier': '9781775093305'
+            }],
+            'readingModes':
+            {
+                'text': False,
+                'image': False
+            },
+            'pageCount': 302,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': False,
+            'contentVersion': 'preview-1.0.0',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=BcN0swEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=BcN0swEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=BcN0swEACAAJ&dq=python&hl=&cd=9&source=gbs_api',
+            'infoLink': 'http://books.google.co.in/books?id=BcN0swEACAAJ&dq=python&hl=&source=gbs_api',
+            'canonicalVolumeLink': 'https://books.google.com/books/about/Python_Tricks.html?hl=&id=BcN0swEACAAJ'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'NOT_FOR_SALE',
+            'isEbook': False
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'NO_PAGES',
+            'embeddable': False,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': False
+            },
+            'pdf':
+            {
+                'isAvailable': False
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=BcN0swEACAAJ&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'NONE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': '&quot;With Python Tricks: The Book you&#39;ll discover Python&#39;s best practices and the power of beautiful &amp; Pythonic code with simple examples and a step-by-step narrative.&quot; -- Back cover.'
+        }
+    },
+    {
+        'kind': 'books#volume',
+        'id': 'nEJ-jcYF2fMC',
+        'etag': 'Ipebr/kPOuk',
+        'selfLink': 'https://www.googleapis.com/books/v1/volumes/nEJ-jcYF2fMC',
+        'volumeInfo':
+        {
+            'title': 'Learning Python',
+            'authors': ['Mark Lutz'],
+            'publisher': '"O\'Reilly Media, Inc."',
+            'publishedDate': '2007-10-22',
+            'description': "Portable, powerful, and a breeze to use, Python is ideal for both standalone programs and scripting applications. With this hands-on book, you can master the fundamentals of the core Python language quickly and efficiently, whether you're new to programming or just new to Python. Once you finish, you will know enough about the language to use it in any application domain you choose. Learning Python is based on material from author Mark Lutz's popular training courses, which he's taught over the past decade. Each chapter is a self-contained lesson that helps you thoroughly understand a key component of Python before you continue. Along with plenty of annotated examples, illustrations, and chapter summaries, every chapter also contains Brain Builder, a unique section with practical exercises and review quizzes that let you practice new skills and test your understanding as you go. This book covers: Types and Operations -- Python's major built-in object types in depth: numbers, lists, dictionaries, and more Statements and Syntax -- the code you type to create and process objects in Python, along with Python's general syntax model Functions -- Python's basic procedural tool for structuring and reusing code Modules -- packages of statements, functions, and other tools organized into larger components Classes and OOP -- Python's optional object-oriented programming tool for structuring code for customization and reuse Exceptions and Tools -- exception handling model and statements, plus a look at development tools for writing larger programs Learning Python gives you a deep and complete understanding of the language that will help you comprehend any application-level examples of Python that you later encounter. If you're ready to discover what Google and YouTube see in Python, this book is the best way to get started.",
+            'industryIdentifiers': [
+            {
+                'type': 'ISBN_10',
+                'identifier': '0596554494'
+            },
+            {
+                'type': 'ISBN_13',
+                'identifier': '9780596554491'
+            }],
+            'readingModes':
+            {
+                'text': True,
+                'image': True
+            },
+            'pageCount': 752,
+            'printType': 'BOOK',
+            'categories': ['Computers'],
+            'averageRating': 4.0,
+            'ratingsCount': 34,
+            'maturityRating': 'NOT_MATURE',
+            'allowAnonLogging': True,
+            'contentVersion': '1.6.5.0.preview.3',
+            'panelizationSummary':
+            {
+                'containsEpubBubbles': False,
+                'containsImageBubbles': False
+            },
+            'imageLinks':
+            {
+                'smallThumbnail': 'http://books.google.com/books/content?id=nEJ-jcYF2fMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api',
+                'thumbnail': 'http://books.google.com/books/content?id=nEJ-jcYF2fMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api'
+            },
+            'language': 'en',
+            'previewLink': 'http://books.google.co.in/books?id=nEJ-jcYF2fMC&printsec=frontcover&dq=python&hl=&cd=10&source=gbs_api',
+            'infoLink': 'https://play.google.com/store/books/details?id=nEJ-jcYF2fMC&source=gbs_api',
+            'canonicalVolumeLink': 'https://play.google.com/store/books/details?id=nEJ-jcYF2fMC'
+        },
+        'saleInfo':
+        {
+            'country': 'IN',
+            'saleability': 'FOR_SALE',
+            'isEbook': True,
+            'listPrice':
+            {
+                'amount': 2597.48,
+                'currencyCode': 'INR'
+            },
+            'retailPrice':
+            {
+                'amount': 2597.48,
+                'currencyCode': 'INR'
+            },
+            'buyLink': 'https://play.google.com/store/books/details?id=nEJ-jcYF2fMC&rdid=book-nEJ-jcYF2fMC&rdot=1&source=gbs_api',
+            'offers': [
+            {
+                'finskyOfferType': 1,
+                'listPrice':
+                {
+                    'amountInMicros': 2597480000.0,
+                    'currencyCode': 'INR'
+                },
+                'retailPrice':
+                {
+                    'amountInMicros': 2597480000.0,
+                    'currencyCode': 'INR'
+                }
+            }]
+        },
+        'accessInfo':
+        {
+            'country': 'IN',
+            'viewability': 'PARTIAL',
+            'embeddable': True,
+            'publicDomain': False,
+            'textToSpeechPermission': 'ALLOWED',
+            'epub':
+            {
+                'isAvailable': True
+            },
+            'pdf':
+            {
+                'isAvailable': True
+            },
+            'webReaderLink': 'http://play.google.com/books/reader?id=nEJ-jcYF2fMC&hl=&printsec=frontcover&source=gbs_api',
+            'accessViewStatus': 'SAMPLE',
+            'quoteSharingAllowed': False
+        },
+        'searchInfo':
+        {
+            'textSnippet': 'This book covers: Types and Operations -- Python&#39;s major built-in object types in depth: numbers, lists, dictionaries, and more Statements and Syntax -- the code you type to create and process objects in Python, along with Python&#39;s general ...'
+        }
+    }]
+}

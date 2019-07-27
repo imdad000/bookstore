@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="search">
+        <div class="search__container">
+            <form class="search-form" method="GET" action="">
+                <input class="search-form__query" type="text" placeholder="Search" name="query">
+            </form>
+        </div>
+    </div>
+    <section class="result">
+        <div class="container">
+            <div class="movies">
+                {% if has_result %}
+
+                    {% for book in search_result.items %}
+                        <div class="movies__item">
+                            <p class="movies__item-rating hide">{{ book.volumeInfo.title }}</p>
+                            {% for r in mydata %}
+                                {% ifequal  r.book_id book.id %}
+                                {% if r.book_quantity %}
+                                 <a href="{% url 'details' %}{{ book.id }}" id="modal-trigger" class="movies__item-expander hide">Purchased It!.</a>
+                                {% else %}
+                                 <a href="{% url 'details' %}{{ book.id }}" id="modal-trigger" class="movies__item-expander hide">Out of Stock</a>
+                                 {% endif %}
+                            {% endifequal  %}
+                            {% endfor%}
+                            <img class="movies__item-image" src='{{ book.volumeInfo.imageLinks.thumbnail }}' onerror="this.src='https://dummyimage.com/600x900/ababab/ffffff.png&amp;text=+Poster'"/>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <p class="movies__item-title">No results found.</p>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+{% endblock content %}
