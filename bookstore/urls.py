@@ -18,8 +18,6 @@ from django.urls import path
 from django.conf.urls import url,include
 from bookapp import views
 urlpatterns = [
-     url(r'^imdad/', include('bookapp.urls')),
-	# path('bookapp/', views.home_page, name='home_page'),
- #    path('details/', views.details, name='details'),
+    path('imdad/', include('bookapp.urls')),
     path('admin/', admin.site.urls),
 ]
