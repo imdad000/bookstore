@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h2><a href="{% url 'bookapp:home_page' %}">Books FBV</a>: Edit</h2>
+<h2><a href="{% url 'bookapp:home_page' %}">Books Store </a>: Update the Quantity</h2>
 
 <form method="post">{% csrf_token %}
     {{ form.as_p }}

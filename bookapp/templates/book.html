@@ -21,7 +21,6 @@
                                 {% ifequal  r.book_id book.id %}
                                 {% if r.book_quantity %}
                                  <p id="modal-trigger" class="movies__item-expander hide">Purchased It!.</p>
-                                 <p id="modal-trigger" class="quantity movies__item-expander hide">Update It!</p>
                                   <a href="{% url 'bookapp:update_book' r.id %}">Update Inventory</a>
                                  <a href="{% url 'bookapp:delete_book' r.id %}">delete</a> 
                                   
